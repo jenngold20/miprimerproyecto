@@ -1,0 +1,1011 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Special+Elite&display=swap');body {
+	font-family: 'Dosis', sans-serif;
+}
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#barra {
+	width: 960px;
+	height: 1px;
+	background-color: #000000;
+}
+
+
+header {
+	background-color: #000000 ;
+	height: 151px ;
+	box-sizing: border-box;
+}
+
+#nombre {
+	width: 960px;
+	height: 100px;
+	background-color: #FAD2EB;
+	font-size: 78px;
+	text-align: center;
+	letter-spacing: 12px;
+	background-image: url(imagenes/fondo1.jpg);
+	padding-top: 0px;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+	margin:0;
+	text-shadow:
+1px 1px 0px rgba(230,230,230,1),
+2px 2px 0px rgba(200,200,200,1),
+3px 3px 0px rgba(180,180,180,1),
+4px 4px 0px rgba(160,160,160,1);
+}
+
+#menu {
+	width: 960px;
+	height: 48px;
+	background-color: #FEC8D8;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+ul  {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul li a {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:link { text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+.destacado_horizontal{
+	width: 120px;
+	height: 40px;
+	background-color: #BDC0F7;
+	color: #000000;
+	text-decoration: none;
+	text-align:center;
+	font-weight: bold;
+	border: solid;
+	border-color:#FB6CB8; 
+	border-width: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 40px;
+	margin-left: 4px;
+	margin-top: 3px;
+	border-radius: 50px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	list-style-type: none;
+}
+
+.destacado_horizontal:hover {
+	background-color:#FE87BD;
+	font-weight: lighter;
+	
+}
+
+#info {
+	height: 248px;
+	background-color: #000000;
+	box-sizing: border-box;
+}
+#foto {
+	width: 249.5px;
+	height: 248px;
+	background-color: #957DAD;
+	float: left;
+	box-sizing: border-box;
+
+}
+
+#datos {
+	width: 710px;
+	height: 248px;
+	background-color: #E0BBE4;
+	float: right;
+	box-sizing: border-box;
+	background: -webkit-linear-gradient(top, #E0BBE4 , #FFDFD3 100px);
+}
+
+h2{
+	margin-top: 0;
+	text-align: center;
+	text-decoration: underline;
+	box-sizing: border-box;
+	
+}
+
+
+#presentacion {
+	width: 960px;
+	height: 240px;
+	background-color: #FFDFD3;
+	text-align: center;
+	letter-spacing: 5px;
+	box-sizing: border-box;
+	float:none;
+	background-image: url(imagenes/fondo2.jpg);
+	text-shadow:
+1px 1px 0px rgba(230,230,230,1),
+2px 2px 0px rgba(200,200,200,1),
+3px 3px 0px rgba(180,180,180,1),
+4px 4px 0px rgba(160,160,160,1);
+	
+}
+
+#flor6, #flor5, #flor4, #flor3, #flor2 {
+	position:relative;
+	-webkit-animation-name: flori;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction:normal; 
+	-webkit-animation-timing-function:initial;
+}
+
+@-webkit-keyframes flori {
+		100% {	 
+			-webkit-transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(-360deg);	
+		}
+}
+#flor{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: -50px;
+	margin-right: 0;
+	width: 960px;
+	height: 50px;
+	position:relative;
+	-webkit-animation-name: flor;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate; 
+	-webkit-animation-timing-function: ease-in;
+
+}
+
+@-webkit-keyframes flor {
+
+    from {
+    left: -350px;
+	opacity: 1;
+    }
+
+    to {
+    left: 200px;
+    opacity: 0;
+    }
+} 
+@-webkit-keyframes flor1 {
+	100% {	 
+		-webkit-transform: rotate(0deg) translate(0px,0px);
+	}
+	100% {
+		-webkit-transform: rotate(-360deg) translate(0px,0px);	
+	}
+}
+#flor1{	
+-webkit-animation-name: flor1;
+-webkit-animation-duration: 2s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate; 
+-webkit-animation-timing-function: ease-in;
+}
+
+#cuadrados {
+	width: 960px;
+	height: 597px;
+	background-color: #000000;
+}
+
+
+#educacion {
+	width: 479.5px;
+	height: 339px;
+	background-color: #E0BBE4;
+	float: left;
+	text-align: center;
+	font-size: 50px;	
+	box-sizing: border-box;
+	padding: 140px 30px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#E0BBE4), to(#BF8091));
+	text-decoration: none;
+}
+#experiencia {
+	width: 479.5px;
+	height: 339px;
+	background-color: #957DAD;
+	float: right;
+	text-align: center;
+	font-size: 50px;
+	box-sizing: border-box;
+	padding: 140px 30px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#957DAD), to(#F29999));
+    text-decoration: none;
+}
+
+#seminarios {
+	width: 349px;
+	height: 256px;
+	background-color: #BF8091;
+	float: left;
+	margin-top: 1px;
+	text-align: center;
+	font-size: 40px;
+	box-sizing: border-box;
+	padding: 100px 30px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#BF8091), to(#FEC8D8));
+    text-decoration: none;
+}
+
+#idiomas {
+	width: 259.5px;
+	height: 256px;
+	background-color: #705E78;
+	float: left;
+	margin-left: 1px;
+	margin-top: 1px;
+	text-align: center;
+	font-size: 40px;
+	box-sizing: border-box;
+	padding: 100px 30px;
+	background: -webkit-radial-gradient(50%, #FE87BD , #BF8091);
+	text-decoration: none;
+}
+
+#informatica {
+	width: 349.5px;
+	height: 256px;
+	float: right;
+	margin-top: 1px;
+	text-align: center;
+	font-size: 40px;
+	box-sizing: border-box;
+	padding: 100px 30px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#F29999), to(#FEC8D8));
+	text-decoration: none;
+}
+
+
+.edu {
+	text-decoration: none;
+	color:black;
+	text-shadow:greenyellow;
+
+}
+
+.exp {
+	text-decoration: none;
+	color:black;
+	text-shadow:greenyellow;
+
+}
+
+.sem {
+	text-decoration: none;
+	color:black;
+	text-shadow:greenyellow;
+
+}
+
+.idi {
+	text-decoration: none;
+	color:black;
+	text-shadow:greenyellow;
+
+}
+
+.inf {
+	text-decoration: none;
+	color:black;
+	text-shadow:greenyellow;
+
+}
+
+
+.edu:hover {
+	font-weight: lighter;
+	font-size: 110%;
+	width:300px;
+
+}
+
+.exp:hover {
+	font-weight: lighter;
+	font-size: 110%;
+	width:300px;
+
+}
+.sem:hover {
+	font-weight: lighter;
+	font-size: 110%;
+	width:300px;
+
+}
+.idi:hover {
+	font-weight: lighter;
+	font-size: 110%;
+	width:300px;
+
+}
+
+.inf:hover {
+	font-weight: lighter;
+	font-size: 110%;
+	width:300px;
+
+}
+
+
+footer {
+	height: 100px;
+	background-color: #000000;
+	box-sizing: border-box;
+	
+}	
+
+#contacto {
+	width: 960px;
+	height: 99px;
+	background-color: #FEC8D8;
+	background-image: url(imagenes/fondo3.jpg);
+	box-sizing: border-box;
+	
+	
+}
+.destacado_contacto{
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	color: #000000;
+	text-decoration: none;
+	text-align:center;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 40px;
+	margin-left: 4px;
+	margin-top: 25px;
+}
+
+.destacado_contacto:hover {
+	font-weight:unset;
+	color:rebeccapurple;
+
+}
+
+#pag_educacion {
+	width: 960px;
+	height: 1000px;
+	background-image: linear-gradient(100deg, #49b3ff 0, #62b0ff 8.33%, #77acff 16.67%, #8aa9ff 25%, #9ba5fc 33.33%, #aba1f7 41.67%, #b99df2 50%, #c699ec 58.33%, #d295e4 66.67%, #dc92dc 75%, #e58fd3 83.33%, #ec8cc9 91.67%, #f28ac0 100%);	margin: none;
+	text-align: center;
+}
+#pag_educacion h2{
+text-shadow: -2px 2px #558ABB;
+font-family:  'Special Elite';
+}
+
+#pag_educacion h3{
+	text-shadow:
+1px 1px 0px rgba(230,230,230,1),
+2px 2px 0px rgba(200,200,200,1),
+3px 3px 0px rgba(180,180,180,1),
+4px 4px 0px rgba(160,160,160,1);
+}
+
+#licenciatura {
+    width: 480px;
+	height: 400px;
+	float: left;
+}
+
+#diplo { 
+	width: 480px;
+	height: 400px;
+	float: left;
+
+}
+
+#tramo {
+	width: 960px;
+	height: 500px;
+
+}
+
+#pag_experiencia {
+	width: 960px;
+	height: 850px;
+	background-image: radial-gradient(circle at 9.44% 107.92%, #b4e1d6 0, #b2e1da 6.25%, #b0e1de 12.5%, #afe1e2 18.75%, #afe1e6 25%, #afe0e9 31.25%, #b0e0ed 37.5%, #b2dff0 43.75%, #b5def2 50%, #b8ddf4 56.25%, #bcdcf6 62.5%, #c0dbf7 68.75%, #c5d9f7 75%, #cad8f7 81.25%, #cfd7f6 87.5%, #d4d5f5 93.75%, #d9d4f4 100%);	margin: none;
+	text-align: center;
+}
+
+#pag_seminarios {
+	width: 960px;
+	height: 500px;
+	background-image: linear-gradient(150deg, #ffaf7b 0, #ffb472 5.56%, #ffb96a 11.11%, #ffbe64 16.67%, #f8c360 22.22%, #ecc85e 27.78%, #dfcc5e 33.33%, #d1d160 38.89%, #c3d565 44.44%, #b4d86c 50%, #a4db75 55.56%, #93de7f 61.11%, #81e08a 66.67%, #6de296 72.22%, #55e4a4 77.78%, #33e5b1 83.33%, #00e6c0 88.89%, #00e6ce 94.44%, #00e7dc 100%);
+	margin: none;
+	text-align: center;
+}
+
+#pag_seminarios h2{
+	font-family:  'Special Elite';
+	text-shadow: -2px 2px #558ABB;
+	padding: 5px;
+
+}
+
+#semin{
+	width: 960px;
+	height: 450px;
+	text-align: justify;
+	text-decoration-style: wavy;
+	background-image: radial-gradient(circle at 120.71% 50%, #a9daca 0, #a5dbcf 3.33%, #a2dbd4 6.67%, #a0dbd9 10%, #9fdade 13.33%, #9fdae3 16.67%, #a0d9e7 20%, #a2d8eb 23.33%, #a6d7ee 26.67%, #aad6f0 30%, #aed5f2 33.33%, #b4d4f4 36.67%, #bad2f4 40%, #c0d0f4 43.33%, #c7cff3 46.67%, #cdcdf2 50%, #d3cbf0 53.33%, #d9caed 56.67%, #dfc8ea 60%, #e4c7e6 63.33%, #e9c6e2 66.67%, #edc5dd 70%, #f1c4d8 73.33%, #f3c3d3 76.67%, #f5c3ce 80%, #f6c3c9 83.33%, #f7c4c4 86.67%, #f7c4c0 90%, #f6c5bb 93.33%, #f4c6b7 96.67%, #f1c7b4 100%);
+}
+
+#pag_idiomas {
+	width: 960px;
+	height: 452px;
+	background-image: linear-gradient(300deg, #ffe6cd 0, #ffe7ca 6.25%, #ffe9c9 12.5%, #ffebc8 18.75%, #fbecc8 25%, #f6eec8 31.25%, #f1efc9 37.5%, #ebf1cb 43.75%, #e6f2cd 50%, #e1f3d0 56.25%, #dbf4d3 62.5%, #d6f5d7 68.75%, #d1f6db 75%, #ccf7df 81.25%, #c8f8e4 87.5%, #c4f8e9 93.75%, #c1f8ee 100%);	margin: none;
+	text-align: center;
+	font-family: 'Special Elite';
+	padding: 2px;
+
+
+} 
+
+#pag_idiomas img{
+	width: 35px;
+	height: 35px;
+	
+}
+
+#pag_idiomas h2{
+	text-shadow: -2px 2px #558ABB;
+
+}
+#ingles {
+	width: 320px;
+	height: 408px;
+	float:left;
+	background-image: radial-gradient(circle at -19.64% 37.72%, #abdfff 0, #b2deff 5%, #b8dcff 10%, #c0daff 15%, #c7d8ff 20%, #cfd6ff 25%, #d7d4ff 30%, #ded2fe 35%, #e5d0fb 40%, #eccff7 45%, #f2cdf2 50%, #f7cced 55%, #fccae8 60%, #ffcae2 65%, #ffc9dc 70%, #ffc9d6 75%, #ffc9d0 80%, #ffc9cb 85%, #ffcac5 90%, #ffcbc0 95%, #ffccbb 100%);
+}
+
+#aleman {
+	width: 320px;
+	height: 408px;
+	background-image: radial-gradient(circle at 111.24% 14.64%, #ffdeb5 0, #ffe1b1 6.25%, #ffe3af 12.5%, #ffe6ad 18.75%, #ffe9ad 25%, #f7ebad 31.25%, #efeeaf 37.5%, #e7f0b1 43.75%, #def2b5 50%, #d5f4ba 56.25%, #ccf6bf 62.5%, #c3f7c5 68.75%, #bbf9cc 75%, #b2fad3 81.25%, #aafbdb 87.5%, #a3fbe3 93.75%, #9cfceb 100%);
+	float:left;
+}
+
+#ucraniano {
+	width: 320px;
+	height: 408px;
+	background-image: radial-gradient(circle at 120.71% 50%, #edf3ff 0, #b5c9f2 50%, #79a1e2 100%);
+	float:left;
+}
+
+@-webkit-keyframes bandera {
+	0% { transform: rotate(0deg); }
+
+	100% { transform: rotate(360deg); }
+	}
+
+#aleman img{	
+-webkit-animation-name: bandera;
+-webkit-animation-duration: 3s;
+-webkit-animation-iteration-count: infinite;
+}
+
+#ingles img{	
+	-webkit-animation-name: bandera;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	}
+	
+#ucraniano img{	
+	-webkit-animation-name: bandera;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	}
+		
+#pag_informatica {
+	width: 960px;
+	height: 450px;
+	background: -webkit-radial-gradient(50%, #666666, #26012e);	
+	text-align: center;
+	
+}
+
+#pag_informatica h2 {
+	text-shadow: 0 0 3px #86E627;
+	font-family: 'Special Elite';
+	color: #ffffff;
+	padding: 2px;
+}
+#pag_informatica h3 {
+	text-shadow:2px -1px #558ABB;
+}
+#microsoft {
+	width: 480px;
+	height:377px;
+	float: left;
+	background: linear-gradient(to right,#A6EDE1,#EBB5C8)
+
+}
+
+#otrash {
+	width: 480px;
+	height:377px;
+	float: left;
+	background: linear-gradient(to right,#EBB5C8, #A6EDE1);
+    
+}
+form {
+	width: 960px;
+	height: 252px;
+	background-color:#FEC8D8;
+	text-align: center;
+	box-sizing: border-box;
+	
+	}
+#enviar {
+    background-color: #ec9eff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+}
+
+#enviar:hover {
+    background-color: rgb(237, 205, 252);
+    border: solid #f0c0f1ec 2px;
+    color: black;
+    cursor:context-menu;
+}
+
+.form_caja input {
+		box-shadow: 1px 1px 1px #000000;
+			width: 150px;
+			height: 20px;
+			border-radius: 5px;
+			border: none;
+	}
+
+
+.icon-document-edit {
+	color:rebeccapurple; 
+}
+
+@media all and (min-width: 600px) and (max-width: 1024px) {
+
+	header, section, footer {
+		width: 580px;
+	}
+	
+	#barra {
+		width: 580px;
+	}
+	
+	@-webkit-keyframes flor {
+	
+		100% {	 
+			-webkit-transform: rotate(2deg);
+		}
+		100% {
+			-webkit-transform: rotate(-60deg);	
+		}
+	} 
+
+	#nombre {
+		width: 580px;
+		height: 100px;
+	}
+	
+	#flor{
+		margin-left: -50px;
+		width: 580px;
+	}
+	
+	#menu {
+		width: 580px;
+		height: 48px;	
+	}
+	
+	
+	.destacado_horizontal{
+		width: 58px;
+		height: 40px;
+		font-size: smaller;		
+	}
+	
+	
+	form {
+	width: 580px;
+	height: 252px;
+	}
+
+	#foto {
+		width: 230px;
+		height: 248px;
+		
+	}
+	
+	#foto img{
+		width: 230px;
+		height: 248px;
+	}
+
+	#datos {
+		width: 349px;
+		height: 248px;	
+	}
+		
+	#info {
+		height: 248px;
+	}
+	
+	#presentacion {
+		width: 580px;
+		height: 202px;
+	}
+	#cuadrados {
+		width: 580px;
+		height: 597px;
+		
+	
+	}
+	#educacion {
+		width: 289.5px;
+		height: 339px;
+	}
+	#experiencia {
+		width: 289.5px;
+		height: 339px;
+	}
+	
+	#seminarios {
+		width: 210px;
+		height: 256px;
+	}
+	
+	#idiomas {
+		width: 158px;
+		height: 256px;
+	}
+
+	
+	#informatica {
+		width: 210px;
+		height: 256px;
+	}
+
+	
+    .exp:hover, .edu:hover {
+	font-size: 40px;		
+	}
+	.sem:hover, .idi:hover, .inf:hover {
+		font-size: 30px;
+	}
+	
+	footer {
+		height: 100px;
+	}	
+	
+	#contacto {
+		width: 580px;
+		height: 99px;
+		padding: 0px;
+		
+				
+	}
+	.destacado_contacto{
+		width: 100px;
+		height: 50px;
+	}
+	
+	#pag_educacion {
+		width: 580px;
+		height: 1000px;
+	}
+	
+	#licenciatura {
+		width: 290px;
+		height: 400px;
+	}
+	
+	#diplo { 
+		width: 290px;
+		height: 400px;
+	
+	}
+	
+	#tramo {
+		width: 580px;
+		height: 500px;
+	
+	}
+	
+
+	#pag_experiencia {
+		width: 580px;
+		height: 800px;
+	}
+	
+	#pag_seminarios {
+		width: 580px;
+		height: 550px;
+	}
+	#semin{
+		width: 580px;
+		height: 500px;
+	}
+	
+	#pag_idiomas {
+		width: 580px;
+		height: 400px;
+	} 
+
+
+	#ingles {
+		width: 193.3px;
+		height: 357px;
+		
+	}
+	
+	#aleman {
+		width: 193.3px;
+		height: 357px;
+		
+	}
+	
+	#ucraniano {
+		width: 193.3px;
+		height: 357px;
+		
+	}
+
+	#pag_informatica {
+		width: 580px;
+		height: 417px;
+
+	}
+
+	#microsoft {
+		width: 290px;
+		height: 344px;
+		
+	}
+	
+	#otrash {
+		width: 290px;
+		height: 344px;
+		
+	}
+	
+	
+	.form_caja input {
+	
+				width: 200px;
+				height: 30px;
+			
+	
+		}
+} /*fin @media 600 a 1023px */
+
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+		width: 100%;
+		
+	}
+	
+#barra {
+		width: 100%;
+		height: 1px;
+		}
+	
+@-webkit-keyframes flor {
+		100% {	 
+			-webkit-transform: rotate(2deg);
+		}
+		100% {
+			-webkit-transform: rotate(-60deg);	
+		}
+	}
+
+header {
+		height: auto;
+		width:100%;
+	}
+#nombre{
+		width:100%;
+		height: auto;
+	}
+#menu {
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+
+#datos{
+		width:100%;
+		height: auto;
+	}
+#foto{
+		width:100%;
+		height: auto;
+	}
+#cuadrados{
+		width: 100%;
+		height: auto;
+	}	
+	
+#presentacion {
+		width:100%;
+		height:auto;
+	}
+
+ul li {
+		display: block;
+	
+	}
+
+	
+ul li a{
+		width: 100%;
+		text-align: center;
+	
+	}
+
+.destacado_horizontal{
+		width: 350px;
+		height: 40px;	
+		text-align: center;
+		margin-left: 10%;	
+	}
+	
+#educacion, #experiencia, #seminarios, #idiomas, #informatica  {
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+	
+#info {
+		height: auto;
+	}
+	
+	
+footer {
+	height: auto;	
+	}	
+	
+#contacto {
+		width: 100%;
+		height: auto;
+	}
+.destacado_contacto{
+		width: 100%;
+		height: auto;
+		margin-left: 80%;
+		
+	}
+	
+#pag_educacion{
+	width: 100%;
+	height: auto;
+	}
+
+#licenciatura {
+	width: 100%;
+	height: auto;
+	
+	}
+	
+#diplo { 
+	width: 100%;
+	height: auto;
+	
+	}
+	
+#tramo {
+	width: 100%;
+	height: auto;
+	
+	}
+
+#pag_experiencia {
+	width: 100%;
+	height: auto;
+}	
+#pag_seminarios {
+	width: 100%;
+	height: auto;
+}
+
+#semin{
+	width: 100%;
+	height: auto;
+}
+#pag_idiomas {
+	width: 100%;
+	height: auto;
+	}
+
+#ingles {
+	width: 100%;
+	height: auto;
+		
+	}
+	
+#aleman {
+	width: 100%;
+	height: auto;
+	}
+	
+#ucraniano {
+    width: 100%;
+    height: auto;
+		
+	}
+
+#pag_informatica {
+	width: 100%;
+	height: auto;
+}
+
+#microsoft {
+	width: 100%;
+	height:auto;
+	float: none;
+	
+	}
+	
+#otrash {
+	width: 100%;
+	height:auto;
+	float: none;
+		
+	}
+	
+form {
+		width: 100%;
+		height: auto;	
+		}
+
+#foto img{
+		width: 100%;
+		height: auto;
+		}
+	
+
+#flor {
+    display: none;
+
+} /*fin @media - 599px /*
